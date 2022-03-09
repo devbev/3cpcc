@@ -1,20 +1,18 @@
 body {
     position: relative;
-    height: 100%;
 }
 
 main {
-    border: 1px solid black;
+
     display: flex;
     flex-direction: column;
     justify-content: center;
-    width: 20rem;
+    width: 18rem;
     position: absolute;
     left: 50%;
     top: 50%;
-    margin: 5% 0;
+    padding: 5% 0;
     transform: translate(-50%);
-    border-radius: 5px;
 }
 
 main > section {
@@ -31,7 +29,7 @@ section > h1 {
 section > p {
     font-family: 'Lexend Deca', sans-serif;
     font-weight: 400;
-    font-size: 15px;
+    font-size: 0.8rem;
     line-height: 1.5;
     color: hsla(0, 0%, 100%, 0.75);
     padding-bottom: 10%;
@@ -41,7 +39,7 @@ section > p {
 section > span {
     font-family: 'Lexend Deca', sans-serif;
     font-weight: 400;
-    font-size: 15px;
+    font-size: 0.8rem;
     background-color: hsl(0, 0%, 95%);
     padding: 7% 15%;
     margin: 2%;
@@ -51,6 +49,8 @@ section > span {
 .sedans {
     background-color: hsl(31, 77%, 52%);
     color: hsl(31, 77%, 52%);
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
 }
 
 .suvs {
@@ -61,5 +61,7 @@ section > span {
 .luxury {
     background-color: hsl(179, 100%, 13%);
     color: hsl(179, 100%, 13%);
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
 
 }
